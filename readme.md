@@ -5,7 +5,7 @@ a small to that can read json object arrays from file or stdin and display an as
 ```sh
 $ json_table -h
 
-json_table 1.0-dev
+json_table 0.1.0
 Display array of json objects as an ascii table
 
 USAGE:

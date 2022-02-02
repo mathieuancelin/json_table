@@ -122,7 +122,7 @@ fn print_arr(arr: &Vec<Value>, display_header: bool, take: usize, skip: usize, p
 fn main() {
 
     let matches = App::new("json_table")
-        .version("1.0-dev")
+        .version("0.1.0")
         .about("Display array of json objects as an ascii table")
         .arg(arg!(-c --columns <VALUE> "the columns to display separated by a colon. if none provided, all columns will be displayed").required(false))
         .arg(arg!(-t --take <VALUE> "the number of lines to display. if none provided, all lines will be displayed").required(false).validator(|s| s.parse::<i64>()))
